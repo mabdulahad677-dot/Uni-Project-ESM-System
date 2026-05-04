@@ -15,7 +15,5 @@ class app(ttk.Tk):
         self.en_password = ttk.Entry(self)
         self.en_password.pack()
 
-
-
 my_app = app()
 my_app.mainloop()
