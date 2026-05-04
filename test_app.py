@@ -5,15 +5,13 @@ class app(ttk.Tk):
         super().__init__()
         self.title("My Test app for project")
 
-        self.username = ttk.Label(self, text = "Username ok")
-        self.username.pack()
-        self.en_username = ttk.Entry(self)
-        self.en_username.pack()
+        self.login_frame = ttk.Frame(self)
+        self.login_frame.pack(padx = 30, pady = 50)
 
-        self.password = ttk.Label(self, text="Password ok")
-        self.password.pack()
-        self.en_password = ttk.Entry(self)
-        self.en_password.pack()
+        self.label = ttk.Label(self.login_frame, text = "Login", font = ("Arial", 30))
+        self.label.pack()
+
+
 
 my_app = app()
 my_app.mainloop()
