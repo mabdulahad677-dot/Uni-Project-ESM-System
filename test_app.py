@@ -5,7 +5,7 @@ class app(ttk.Tk):
         super().__init__()
         self.title("My Test app for project")
 
-        self.username = ttk.Label(self, text = "Username")
+        self.username = ttk.Label(self, text = "Username ok")
         self.username.pack()
         self.en_username = ttk.Entry(self)
         self.en_username.pack()
