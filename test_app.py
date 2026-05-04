@@ -8,5 +8,8 @@ class app(ttk.Tk):
         self.label = ttk.Label(self, text = "This is test app for project", font = ("Arial", 30))
         self.label.pack()
 
+        self.l = ttk.Label(self, text = "This is another line", font = ("Arial", 30))
+        self.l.pack()
+
 my_app = app()
 my_app.mainloop()
