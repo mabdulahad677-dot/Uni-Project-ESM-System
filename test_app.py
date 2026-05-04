@@ -10,7 +10,7 @@ class app(ttk.Tk):
         self.en_username = ttk.Entry(self)
         self.en_username.pack()
 
-        self.password = ttk.Label(self, text="Password")
+        self.password = ttk.Label(self, text="Password ok")
         self.password.pack()
         self.en_password = ttk.Entry(self)
         self.en_password.pack()
